@@ -1,9 +1,14 @@
 import React from "react";
 import Navbar from "./component/Navbar";
+import Home from "./component/Home"
 
 const  App = () =>{
- // return <h1 className="text-3xl">This is app component</h1>
-  return <Navbar/>
-}   
+  return (
+    <>
+    <Navbar />
+    <Home />
+    </>
+  );
+};   
 
 export default App;
